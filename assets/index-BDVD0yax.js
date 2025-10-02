@@ -65,7 +65,7 @@ Error generating stack: `+a.message+`
   margin: 0 28px;
   text-align: center;
 
-  @media (max-width: 400px) {
+  @media (max-width: 420px) {
     font-family: Montserrat, sans-serif;
     p {
       margin-top: 18px;
@@ -105,8 +105,9 @@ Error generating stack: `+a.message+`
   width: 255px;
   height: 76px;
   margin: 88px 0px;
-  @media (max-width: 400px) {
+  @media (max-width: 420px) {
     margin-top: 53px;
+    margin-bottom: 120px;
   }
 `,Qv=Na.button`
   background-color: #44ff00;
@@ -118,7 +119,7 @@ Error generating stack: `+a.message+`
   font-weight: 700;
   line-height: 68px;
   max-width: 372px;
-  @media (max-width: 400px) {
+  @media (max-width: 420px) {
     max-width: 231px;
     height: 44px;
     line-height: 44px;
