@@ -6,13 +6,13 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     outline: 0;
-
   }
   body {
     background: #000000;
     color: #FFFFFF;
     -webkit-font-smoothing: antialiased;
     transition: all 0.5s;
+    overflow-x: hidden;
   }
   body, input, button, textarea {
     font-family: Montserrat, sans-serif;
