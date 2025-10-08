@@ -1,11 +1,15 @@
 import IntroSection from "./sections/Intro";
-import GlobalStyle from "./styles/global";
+import BenefitsSection from "./sections/Benefits";
+import GlobalStyle, { Container } from "./styles/global";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <IntroSection />
+      <Container>
+        <IntroSection />
+        <BenefitsSection />
+      </Container>
     </>
   );
 }

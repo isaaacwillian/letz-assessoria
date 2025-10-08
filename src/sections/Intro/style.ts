@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  width: 100vw;
+  max-width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,6 @@ export const Content = styled.div<{ $titleWidth: number }>`
 
   @media (max-width: 500px) {
     width: 100%;
-    padding: 0 28px;
     font-family: Montserrat, sans-serif;
 
     p {
