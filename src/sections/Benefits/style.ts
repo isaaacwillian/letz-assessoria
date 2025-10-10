@@ -6,7 +6,7 @@ export const Container = styled.section`
   justify-content: center;
   align-items: center;
   background-color: #000;
-  margin: 40px 0;
+  margin: 80px 0;
 `;
 
 export const Content = styled.div`
@@ -16,6 +16,7 @@ export const Content = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 28px;
 
   span {
     color: #44ff00;
@@ -23,12 +24,12 @@ export const Content = styled.div`
 
   h1 {
     margin-bottom: 18px;
-    font-size: 36px;
+    font-size: clamp(24px, 5vw, 36px);
     text-align: center;
   }
 
   .description {
-    font-size: 18px;
+    font-size: clamp(14px, 3vw, 18px);
     max-width: 815px;
     text-align: center;
     margin-bottom: 40px;
@@ -90,7 +91,7 @@ export const InfoContainer = styled.div`
   width: 100%;
   border-radius: 25px;
   border: 0.4px solid #44ff00;
-  padding: 30px 42px;
+  padding: 30px 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,6 +101,7 @@ export const InfoContainer = styled.div`
   h1 {
     margin-top: -10px;
     margin-bottom: 10px;
+    font-size: clamp(18px, 4vw, 32px);
   }
 `;
 

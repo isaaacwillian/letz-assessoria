@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   * {
@@ -18,11 +18,8 @@ export default createGlobalStyle`
     font-family: Montserrat, sans-serif;
     font-size: 14px;
   }
-  button{
+  button {
     cursor: pointer;
   }
-`;
 
-export const Container = styled.div`
-  padding: 0 28px;
 `;

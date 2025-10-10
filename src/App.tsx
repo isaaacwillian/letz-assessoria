@@ -1,15 +1,15 @@
+import GlobalStyle from "./styles/global";
 import IntroSection from "./sections/Intro";
 import BenefitsSection from "./sections/Benefits";
-import GlobalStyle, { Container } from "./styles/global";
+import Experts from "./sections/Experts";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Container>
-        <IntroSection />
-        <BenefitsSection />
-      </Container>
+      <IntroSection />
+      <BenefitsSection />
+      <Experts />
     </>
   );
 }

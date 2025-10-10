@@ -11,7 +11,7 @@ export const Container = styled.section`
 
 export const Title = styled.h1`
   font-family: Karma, sans-serif;
-  font-size: calc(20px + 3.5vw);
+  font-size: clamp(24px, 5vw, 75px);
   background: linear-gradient(90deg, rgba(162, 255, 128, 1) 40%, rgba(107, 208, 255, 1) 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -25,21 +25,13 @@ export const Content = styled.div<{ $titleWidth: number }>`
   font-weight: 700;
   opacity: 0.9;
   text-align: center;
+  padding: 0 16px;
 
   width: ${({ $titleWidth }) => $titleWidth}px;
   max-width: 100%;
 
-  @media (max-width: 500px) {
-    width: 100%;
-    font-family: Montserrat, sans-serif;
-
-    p {
-      margin-top: 18px;
-    }
-  }
-
   h3 {
-    font-size: 20px;
+    font-size: clamp(16px, 4vw, 20px);
     color: #44ff00;
   }
 
@@ -52,6 +44,15 @@ export const Content = styled.div<{ $titleWidth: number }>`
 
   span {
     color: #44ff00;
+  }
+
+  @media (max-width: 500px) {
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+
+    p {
+      margin-top: 18px;
+    }
   }
 `;
 
