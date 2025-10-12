@@ -1,7 +1,8 @@
 import GlobalStyle from "./styles/global";
 import IntroSection from "./sections/Intro";
 import BenefitsSection from "./sections/Benefits";
-import Experts from "./sections/Experts";
+import ExpertsSection from "./sections/Experts";
+import ImpactSection from "./sections/Impact";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <GlobalStyle />
       <IntroSection />
       <BenefitsSection />
-      <Experts />
+      <ExpertsSection />
+      <ImpactSection />
     </>
   );
 }
