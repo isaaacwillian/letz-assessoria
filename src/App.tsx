@@ -4,6 +4,7 @@ import BenefitsSection from "./sections/Benefits";
 import ExpertsSection from "./sections/Experts";
 import ImpactSection from "./sections/Impact";
 import CallToAction from "./sections/CallToAction";
+import Footer from "./sections/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ExpertsSection />
       <ImpactSection />
       <CallToAction />
+      <Footer />
     </>
   );
 }
