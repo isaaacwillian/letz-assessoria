@@ -3,6 +3,7 @@ import IntroSection from "./sections/Intro";
 import BenefitsSection from "./sections/Benefits";
 import ExpertsSection from "./sections/Experts";
 import ImpactSection from "./sections/Impact";
+import CallToAction from "./sections/CallToAction";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <BenefitsSection />
       <ExpertsSection />
       <ImpactSection />
+      <CallToAction />
     </>
   );
 }
